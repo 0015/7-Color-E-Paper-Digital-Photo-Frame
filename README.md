@@ -12,7 +12,7 @@ This setup is designed to efficiently display photos on an E-Paper display, whic
 * 1S LiPo Battery 3.7v 
 * Raspberry Pi 4 (for local server)
 
-![Hardware](https://github.com/0015/7-Color-E-Paper-Digital-Photo-Frame/misc/Hardware.png)
+![Hardware](https://raw.githubusercontent.com/0015/7-Color-E-Paper-Digital-Photo-Frame/refs/heads/main/misc/Hardware.png)
 
 ## System Architecture
 1.  Raspberry Pi with Flask Server:
@@ -28,7 +28,7 @@ This setup is designed to efficiently display photos on an E-Paper display, whic
 2.  Flask API: The server sends converted images in byte data format ready for display. The ESP32 requests new images and draws them on the display.
 3.  Hibernation Schedule: Between 8 AM and 8 PM, the ESP32 wakes up every hour for updates. After 8 PM, it hibernates until 8 AM the following day.
 
-![Workflow](https://github.com/0015/7-Color-E-Paper-Digital-Photo-Frame/misc/Workflow.png)
+![Workflow](https://raw.githubusercontent.com/0015/7-Color-E-Paper-Digital-Photo-Frame/refs/heads/main/misc/Workflow.png)
 
 
 ## ESP32 Setup
