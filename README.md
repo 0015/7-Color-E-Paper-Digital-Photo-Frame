@@ -6,9 +6,9 @@ This setup is designed to efficiently display photos on an E-Paper display, whic
 
 ## Hardware
 [Note] I have only tested it with this display, so it may not work with other E-Paper 7-color displays.
-* 5.65” Seven-Color E-Paper Display (600x448)
-* XIAO eInk Expansion Board
-* XIAO ESP32-S3
+* [5.65” Seven-Color E-Paper Display 600x448](https://www.seeedstudio.com/5-65-Seven-Color-ePaper-Display-with-600x480-Pixels-p-5786.html)
+* [E-Paper Breakout Board for Seeed Studio XIAO](https://www.seeedstudio.com/ePaper-Breakout-Board-p-5804.html)
+* [Seeed Studio XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)
 * 1S LiPo Battery 3.7v 
 * Raspberry Pi 4 (for local server)
 
