@@ -1,6 +1,8 @@
 # ESP32 E-Paper Digital Frame Project
 This project is a digital photo frame using an ESP32 microcontroller and a 5.65” seven-color E-Paper display, optimized to display images with a 7-color palette. The ESP32 retrieves image data from a local server and displays it on the screen, with a power-saving feature that puts the ESP32 into hibernation between updates.
 
+![](https://raw.githubusercontent.com/0015/7-Color-E-Paper-Digital-Photo-Frame/refs/heads/main/misc/Demo.gif)(https://youtu.be/9gdemeaTfyI)
+
 ## Project Overview
 This setup is designed to efficiently display photos on an E-Paper display, which supports only a limited color palette. To achieve the best image quality, images are converted using Floyd–Steinberg dithering and a custom 7-color palette.
 
